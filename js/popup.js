@@ -399,9 +399,7 @@ function showEmpty() {
 function hideSearchPopup() {
     $("#search>i").text("search");
     $("#searchtype").hide();
-    $("#semcon").hide();
     $("#depcon").hide();
-    $("#semesters").hide();
     $("#levcon").hide();
     $("#search-popup").addClass("hide");
 }
@@ -409,9 +407,7 @@ function hideSearchPopup() {
 function showSearchPopup() {
     $("#search>i").text("close");
     $("#class_id_input").show();
-    $("#semesters").show();
     $("#searchtype").show();
-    $("#semcon").show();
     $("#depcon").show();
     $("#levcon").show();
     $("#search-popup").removeClass("hide");

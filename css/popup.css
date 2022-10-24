@@ -433,6 +433,14 @@ cursor:pointer;}
     position: relative;
 }
 
+.dropdown-style-av {
+    border: 1px solid #979797;
+    margin: 5px 0px;
+    border-radius: 5px;
+    background: transparent no-repeat 90% 50%;
+    position: relative;
+}
+
 .select-style:after {
     content: '\e5c5';
     font-family: 'Material Icons';
@@ -457,7 +465,7 @@ cursor:pointer;}
     background-image: none;
     -webkit-appearance: none;
     appearance: none;
-    width: 120px;
+    width: 100%;
     word-break: normal;
     -ms-word-break: normal;
     overflow: visible;
