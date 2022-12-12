@@ -117,6 +117,12 @@ $("#RIS").click(function () {
     });
 });
 
+$("#wtlist").click(function () {
+    chrome.tabs.create({
+        url: "https://utdirect.utexas.edu/registrar/waitlist/wl_see_my_waitlists.WBX",
+    });
+});
+
 $("#calendar").click(function () {
     chrome.tabs.create({
         url: "calendar.html",

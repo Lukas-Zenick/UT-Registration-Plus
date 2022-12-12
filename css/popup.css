@@ -183,15 +183,19 @@ i {
 
 
 .clear_button {
-     background:#4CAF50;
+    background: #FF0000;
 }
 
-.ris_button {
+.waitlist_button {
     background:#FF9800;
 }
 
-.schedule_button {
-    background: #FF0000;
+.ris_button {
+    background:#4CAF50;
+}
+
+.calendar_button {
+    background:#1d6ed2;
 }
 
 .donate_button {
