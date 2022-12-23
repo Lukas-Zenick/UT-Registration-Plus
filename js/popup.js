@@ -207,7 +207,6 @@ $("#export-class").click(function () {
 
 function openSearch(semester, department, level, courseCode) {
     var link = "";
-    console.log(courseCode)
     if (courseCode) {
         link = `https://utdirect.utexas.edu/apps/registrar/course_schedule/${semester}/results/?search_type_main=COURSE&fos_cn=${department}&course_number=${courseCode}`;
     } else {
